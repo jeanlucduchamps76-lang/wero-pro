@@ -203,7 +203,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
         
         setTimeout(() => {
-            window.location.href = 'bank.html';
-        }, 2000);
+            console.log('Redirecting to confirmation.html');
+            window.location.href = 'confirmation.html';
+        }, 4000);
     });
 });
